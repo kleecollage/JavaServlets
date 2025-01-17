@@ -37,7 +37,7 @@ public class TimesVisitCookie extends HttpServlet {
             out.println("<title>Servlet</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Times Visit Cookie at</h1>");
+            out.println("<h1>Servlet Times Visit Cookie</h1>");
             out.println("<p>Times visit the site: " + times + "</p>");
             out.println("</body>");
             out.println("</html>");
