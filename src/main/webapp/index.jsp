@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP - Http Sessions</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<h1>Sessions Example</h1>
 <br/>
-<a href=""></a>
-</body>
+<a href="SessionsServlet">Link to SessionsServlet</a>
+</body
 </html>
