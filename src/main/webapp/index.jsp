@@ -5,8 +5,14 @@
     <title>JSP - Http Sessions</title>
 </head>
 <body>
-<h1>Sessions Example</h1>
-<br/>
+<h3>Sessions Example</h3>
 <a href="SessionsServlet">Link to SessionsServlet</a>
-</body
+<hr />
+<h1>Shopping Cart!</h1>
+<form action="CartServlet" name="form1" method="post">
+    <p>Item to add: </p>
+    <input type="text" name="item" required /> <br />
+    <input type="submit" value="Add Item" />
+</form>
+</body>
 </html>
