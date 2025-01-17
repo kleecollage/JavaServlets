@@ -7,6 +7,7 @@
 <body>
 <h1>Handle Cookies</h1>
 <br/>
-<a href="CookiesServlet">Go to Cookies Servlet</a>
+<a href="CookiesServlet">Go to Cookies Servlet</a> <br/>
+<a href="TimesVisitCookie">Go to times visit cookie</a>
 </body>
 </html>
