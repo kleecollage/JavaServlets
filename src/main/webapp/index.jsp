@@ -22,5 +22,12 @@
     Password: <input type="password" name="password" required/> <br/>
     <input type="submit" value="Submit" /> <br/>
 </form>
+<hr />
+<h1>JSP Scriptlets</h1>
+<a href="scriptlets.jsp">Link to Scriptlets</a> <br />
+<form action="backgroundColor.jsp" name="form2">
+    Provide color: <input type="text" name="backgroundColor" required/><br />
+    <input type="submit" value="Submit" /> <br/>
+</form>
 </body>
 </html>
