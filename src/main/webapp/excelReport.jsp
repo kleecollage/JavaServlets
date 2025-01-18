@@ -5,11 +5,12 @@
   Time: 8:14 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page errorPage="WEB-INF/HandleErrors.jsp" %>
 <%@page import="web.excelreport.utils.Conversions, java.util.Date" %>
 <%@page contentType="application/vnd.ms-excel;charset=UTF-8" %>
 <%
   String fileName = "report.xls";
-  response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
+  response.setHeader("Content-Disposition", "inline;filename=" + fileName);
 %>
 <html>
 <head>
@@ -26,7 +27,8 @@
     <tr>
       <td>1. Java Fundamentals</td>
       <td>Basic java syntax</td>
-      <td><%= Conversions.format(new Date()) %></td>
+      <%-- ERROR --%>
+      <td><%= Conversions.format("05-06-20") %></td>
     </tr>
     <tr>
       <td>2. Programming with Java</td>

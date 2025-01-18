@@ -9,4 +9,9 @@ public class Conversions {
         var formatter = new SimpleDateFormat(DATE_FORMAT);
         return formatter.format(date);
     }
+
+    public static String format(String date) {
+        var formatter = new SimpleDateFormat(DATE_FORMAT);
+        return formatter.format(date);
+    }
 }
