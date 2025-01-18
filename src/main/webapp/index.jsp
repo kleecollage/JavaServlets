@@ -2,12 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Excel Report Generation</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<h1>Excel Report Generation</h1>
+<a href="excelReport.jsp">Link to excel report</a>
 </body>
 </html>
