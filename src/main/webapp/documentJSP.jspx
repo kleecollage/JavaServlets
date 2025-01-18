@@ -1,0 +1,43 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: mrrobot
+  Date: 1/17/25
+  Time: 7:47 PM
+  To change this template use File | Settings | File Templates.
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8" />
+    <!-- Variable declaration -->
+    <jsp:declaration>
+        private int visitCounter = 1;
+    </jsp:declaration>
+
+    <html>
+    <head><title>JSPX Document</title></head>
+    <body>
+    <h1>Example JSPX Document</h1>
+    <!-- TEXT OUTPUT -->
+    <jsp:text>Hello from JSPX Document</jsp:text><br/>
+    <!-- JSPX EXPRESSION -->
+    <jsp:expression>2 * 5</jsp:expression><br/>
+    <!-- SCRIPTLET TO GET APP CONTEXT   -->
+    <jsp:scriptlet>
+        String nameApplication = request.getContextPath();
+    </jsp:scriptlet>
+    Application name: <jsp:expression>nameApplication</jsp:expression> <br/>
+    Visit Counter: <jsp:expression>this.visitCounter++</jsp:expression>
+    </body>
+    </html>
+</jsp:root>
+
+
+
+
+
+
+
+
+
+
+

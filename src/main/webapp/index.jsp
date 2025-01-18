@@ -47,6 +47,10 @@
 <p>User value through attribute: <%= this.user %></p>
 <p>User value through method: <%= this.getUser() %></p>
 <p>Visit Counter: <%=this.visitCounter++%></p>
+<hr />
+<%-- ////////////////////   DOCUMENTS JSPX   ////////////////////  --%>
+<h1>Example Documents JSPX</h1>
+<a href="documentJSP.jspx">Go To JSPX Document</a>
 </body>
 </html>
 
