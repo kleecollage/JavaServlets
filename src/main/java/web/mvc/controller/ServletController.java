@@ -25,7 +25,7 @@ public class ServletController extends HttpServlet {
         session.setAttribute("rectangle", rectangle); // share model
 
         // 4. REDIRECT TO SELECTED VIEW
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view/deployVariables.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/deployVariables.jsp");
         requestDispatcher.forward(request, response);
     }
 
