@@ -18,5 +18,48 @@
 Name variable: <c:out value="${name}" /> <br />
 <%--Variable wit HTML code--%>
 <c:out value="<h4>Hello</h4>" escapeXml="false" />
+<%-- Conditional code with if --%>
+<c:set var="flag" value="true" />
+<c:if test="${flag}">
+    Flag is true
+</c:if> <br />
+<%-- Switch structure with c:choose --%>
+<c:if test="${param.option != null}">
+    <c:choose>
+        <c:when test="${param.option == 1}">
+            Option 1 selected
+        </c:when>
+        <c:when test="${param.option == 2}">
+            Option 2 selected
+        </c:when>
+        <c:otherwise>
+            Unknown option selected: ${param.option}
+        </c:otherwise>
+    </c:choose>
+</c:if> <br />
+<%-- Array iteration --%>
+<%
+    String[] names = {"John", "Jane", "James"};
+    request.setAttribute("names", names);
+%>
+<ul>
+    <c:forEach var="person" items="${names}" >
+        <li>${person}</li>
+    </c:forEach>
+</ul>
+<a href="index.jsp">Go Back</a>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
