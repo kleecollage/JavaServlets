@@ -5,9 +5,10 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<h1><%= "Java Beans Example" %></h1>
+<a href="setterJsp.jsp">Modify values of Rectangle JavaBean</a>
+<br />
+<a href="getterJsp.jsp">Read values of Rectangle JavaBean</a>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>
